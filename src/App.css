@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+
+/* Rest of the CSS styles */
+
+h1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 6vh;
+  margin-bottom: 6vh;
+  color: #c0bcbc;
+  
+}
+.page-content {
+  width: 800px;
+  padding: 40px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.touch-typing-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.keyboard {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.key {
+  background-color: #ffbd39;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: #ff9900;
+}
+
+.typing-box {
+  width: 80vh;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 4vh;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.expected-text {
+  margin-bottom: 30px;
+}
+
+.expected-text p {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+}
+
+.typed-text p {
+  font-size: 20px;
+  color: #333;
+}
+
+.timer p,
+.key-press-count p,
+.accuracy p {
+  font-size: 26px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.timer-controls button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 30px;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timer-controls button:hover {
+  background-color: #2186c4;
+}
+
+.start-button {
+  background-color: #27ae60;
+}
+
+.start-button:hover {
+  background-color: #219f53;
+}
+
+.stop-button {
+  background-color: #e74c3c;
+}
+
+.stop-button:hover {
+  background-color: #c73d2d;
+}
+
+.reset-button {
+  background-color: #95a5a6;
+}
+
+.reset-button:hover {
+  background-color: #7f8c8d;
+}
